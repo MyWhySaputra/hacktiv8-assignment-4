@@ -1,8 +1,25 @@
-# React + Vite
+# React App with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React app created with Vite. It is a simple app that displays a list of currencies and their exchange rates.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository
+2. Install the dependencies by running `npm install`
+3. Start the development server by running `npm run dev`
+
+## Features
+
+* Display a list of currencies and their exchange rates
+* Allow users to select a base currency
+* Allow users to select a currency to display the exchange rate for
+
+## Technologies Used
+
+* React
+* Vite
+* Tailwind CSS
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
