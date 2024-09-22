@@ -14,7 +14,7 @@ Currency Exchange Rate App is a React application that displays exchange rates f
 - **React.js**: JavaScript library for building user interfaces.
 - **Fetch API**: Used to retrieve exchange rate data from the CurrencyFreaks API.
 - **Atomic Design**: Project structured based on atomic design principles.
-- **CSS**: For styling the application.
+- **Tailwind CSS**: Utility-first CSS framework for rapid and responsive styling.
 
 ## Installation
 
