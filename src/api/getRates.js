@@ -1,5 +1,6 @@
 const API_KEY = import.meta.env.VITE_API_KEY;
-const API_URL = `https://api.currencyfreaks.com/v2.0/rates/latest?apikey=${API_KEY}&symbols=CAD,IDR,JPY,CHF,EUR,GBP`;
+const CURRENCY = `CAD,IDR,JPY,CHF,EUR,GBP`;
+const API_URL = `https://api.currencyfreaks.com/v2.0/rates/latest?apikey=${API_KEY}&symbols=${CURRENCY}`;
 
 export const getExchangeRates = async () => {
   try {
